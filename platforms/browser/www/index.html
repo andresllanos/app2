@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!-- meta:vp -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css">
+	<link rel="stylesheet" href="css/jquery.mobile.icons.min.css">
+	<link rel="stylesheet" href="css/andres.min.css">
+	<!-- <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"> -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	
+	<!-- boostrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.min.js"></script>
+	<!-- boostrap -->
+
+	<meta charset="UTF-8">
+	<title>ALL APP</title>
+</head>
+
+<body>
+
+	<!-- section#inicio[data-role="page"]>header[data-role="header"] -->
+	<section id="inicio" data-role="page" data-theme="a">
+		<header data-role="header">
+			<h1>Andres Llanos</h1>
+		</header>
+	<!-- section[data-role="content"]>a[data-role="button"]>{contacto} -->
+
+<!-- Inicio de Carrusel -->
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="image/banner2-1.png" height="200px"alt="...">
+      <div class="carousel-caption">
+        <h3>Diseño </h3>
+        <p>Creamos identidad coorporativa</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="image/banner3.png" height="200px" alt="...">
+      <div class="carousel-caption">
+        <h3>Desarrollo Web</h3>
+        <p>Diseñadas a la medida</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="image/banner11.jpg" height="200px" alt="...">
+      <div class="carousel-caption">
+        <h3>Audiovisual</h3>
+        <p>Fotografía y Vídeo</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+	<!-- Fin de Carrusel -->
+		<section data-role="content" data-theme="a">
+			
+			<h4 style="text-align:center;">Bienvenido</h4><hr>
+			<a href="#mipanel" data-role="button">Mi Perfil</a>
+			<a href="#mipanel2" data-role="button">Contacto</a>
+
+			<div data-role="panel" id="mipanel" data-position="left" data-position-fixed="false" data-display="overlay"> 
+				<p><img src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/user_male2-128.png" height="60px" width="60px" alt="foto" ></p>
+				<p><b>Nombre</b></p>
+				<p>Andrés Felipe Llanos</p>
+				<hr>
+				<p><b>Sitio web</b></p>
+				<p><a href="http://www.zoominteractivo.com/" target="_blank">www.zoominteractivo.com</a></p>
+				<hr>
+				<p><b>Biografía</b></p>
+				<p>Diseñador Multimedial</p>
+				<p>Creador de contenido</p>
+				<p>Desarrollador Web</p>
+				<p>Cali - Colombia</p>
+				<hr>
+				<section class="container">
+					<section class="col-sm-12" style="margin:auto;"> 
+						<p style="float: left;"><a href="https://www.instagram.com/llanosandres/" target="_blank"><img src="https://icon-icons.com/icons2/1294/PNG/512/2362135-instagram-photo-round-social_85523.png" height="50px" width="50px" alt="instagram" style=" margin-right: 1em;"></a></p>
+						<p><a href="https://www.facebook.com/andres.llanossuarez?lst=1443186368%3A1443186368%3A1523575106" target="_blank"><img src="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688_960_720.png" height="50px" width="50px" alt="instagram" style="float: none;"></a></p><br>
+					</section>
+				</section>
+
+				<ul data-role="listview">
+					<li><a href="#mision">Ver perfil</a></li>
+				</ul>
+				<!-- <ul data-role="listview">
+					<li><a href="">Mi perfil</a></li>
+					<li><a href="">Nosotros</a></li>
+					<li><a href="">Pagina 3</a></li>
+					<li><a href="">Pagina 4</a></li>
+					<li><a href="">Pagina 5</a></li>
+				</ul> -->
+			</div>
+
+			<div data-role="panel" id="mipanel2" data-position="right" data-position-fixed="false" data-display="overlay"> 
+
+			<form action="">
+				Nombre <br> <input type="text"><br>
+				Correo Electrónico <br> <input type="email"><br>
+				Asunto <br> <input type="text"><br>
+				Mensaje <br> <textarea></textarea><br>
+				<input type="submit" value="Enviar Contacto">
+			</form>
+			</div>
+			
+			<!-- INICIO CONTENIDO -->
+			<div class="row"><br><h4 style="text-align:center;">Recientes</h4><hr>
+			  <div class="col-xs-6 col-md-4">
+			    <div class="thumbnail">
+			      <img src="image/water-preview.png" alt="...">
+			      <div class="caption">
+			        <h3>Water 3D</h3>
+			        <p>Video agua en 3D</p>
+			        <p> <a href="#vision" class="btn btn-default" role="button">VER MÁS</a></p>
+			      </div>
+			    </div>
+			  </div>
+
+			  <div class="col-xs-6 col-md-4">
+			    <div class="thumbnail">
+			      <img src="image/animacion3d-preview.png" alt="...">
+			      <div class="caption">
+			        <h3>Animación</h3>
+			        <p>Video 3D</p>
+			        <p><a href="#vision" class="btn btn-default" role="button">VER MÁS</a></p>
+			      </div>
+			    </div>
+			  </div>
+
+			  <div class="col-xs-6 col-md-4">
+			    <div class="thumbnail">
+			      <img src="image/espiral-preview.png" alt="...">
+			      <div class="caption">
+			        <h3>Espiral 3D</h3>
+			        <p>Video agua en 3D</p>
+			        <p> <a href="#servicios" class="btn btn-default" role="button">VER MÁS</a></p>
+			      </div>
+			    </div>
+			  </div>
+
+			</div>
+
+			<!-- FIN CONTENIDO -->
+
+			<!-- <a data-rel="dialog" href="#contacto" data-role="button" data-inline="false" >Contacto</a> -->
+
+		</section>
+		<!-- footer[data-role="footer"]>h2>{pie de pagina} -->
+		<footer data-role="footer" data-theme="a" data-position="fixed">
+			<!-- nav[data-role="navbar"]>ul>li*4>a[data-icon="home"] -->
+			<nav data-role="navbar">
+				<ul>
+					<li><a data-transition="slidedown" href="#inicio" data-icon="home">Inicio</a></li>
+					<li><a data-transition="slideup" href="#servicios" data-icon="star">Imagenes</a></li>
+					<li><a data-role="content" href="#vision" data-icon="grid" action="">Videos</a></li>
+					<li><a data-transition="pop" href="#mision" data-icon="plus">Perfil</a></li>
+				</ul></nav>
+		</footer>
+	</section>
+
+
+
+	<!-- pagina para el contacto -->
+	<!-- 	<section id="contacto" data-role="page" data-theme="b">
+		<header data-role="header" data-theme="b">
+			<h1>Contacto</h1>
+		</header> -->
+		<!-- section[data-role="content"]>a[data-role="button"]>{contacto} -->
+
+	<!-- 	<section data-role="content" data-theme="b">
+			<form action="">
+				Nombre <br> <input type="text"><br>
+				correo <br> <input type="email"><br>
+				comentario <br> <textarea></textarea><br>
+				<input type="submit" value="Enviar Contacto">
+			</form>
+		</section> -->
+		<!-- footer[data-role="footer"]>h2>{pie de pagina} -->
+<!-- 		<footer data-role="footer" data-theme="b">
+			<hr>
+			<h2>Carrera 82 #85-51</h2>
+			<br>
+			<hr>
+			<h3>PBX: 5448949148</h3>
+
+		</footer>
+	</section> -->
+	<!-- Final pagina para el contacto -->
+
+	<!-- Page to Misión -->
+		<section id="mision" data-role="page" data-theme="a">
+			<header data-role="header">
+				<h1>Mi Perfil</h1>
+			</header><br>
+			<p><img src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/user_male2-128.png" height="60px" width="60px" alt="foto" ></p>
+				<p><b>Nombre: </b>Andrés Felipe Llanos Suarez</p>
+
+				<hr>
+				<p><b>Sitio web: </b> <a href="http://www.zoominteractivo.com/" target="_blank">www.zoominteractivo.com</a></p>
+				<hr>
+				<p><b>Redes sociales: </b> 
+				<a href="https://www.instagram.com/llanosandres/" target="_blank"><img src="https://icon-icons.com/icons2/1294/PNG/512/2362135-instagram-photo-round-social_85523.png" height="30px" width="30px" alt="instagram" style=" margin-right: 0.5em;"></a>
+				 <a href="https://www.facebook.com/andres.llanossuarez?lst=1443186368%3A1443186368%3A1523575106" target="_blank"><img src="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688_960_720.png" height="30px" width="30px" alt="instagram" style="float: none;"></a>
+				</p>
+				<hr>
+				<p><b>Biografía</b></p>
+				<p>Diseñador Multimedial</p>
+				<p>Creador de contenido</p>
+				<p>Desarrollador Web</p>
+				<p>Cali - Colombia</p>
+				<hr>
+
+				<section class="container">
+					<section class="col-xs-5">
+						Diseñol Gráfico
+					</section>
+					<section class="col-xs-7">
+						<div class="progress">
+						  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+						    DISEÑO GRAFICO
+						  </div>
+						</div>
+					</section>
+
+					<section class="col-xs-5">
+						Desaroolo Web
+					</section>
+					<section class="col-xs-7">
+						<div class="progress">
+						  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+						    DESARROLLO WEB 
+						  </div>
+						</div>
+					</section>
+
+					<section class="col-xs-5">
+						Fotografía
+					</section>
+					<section class="col-xs-7">
+						<div class="progress">
+						  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+						    FOTOGRAFÍA 
+						  </div>
+						</div>
+					</section>
+
+					<section class="col-xs-5">
+						Vídeo
+					</section>
+					<section class="col-xs-7">
+						<div class="progress">
+						  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+						    VÍDEO 
+						  </div>
+						</div>
+					</section>
+				</section>
+		
+	
+		<!-- 	<section data-role="content" data-theme="b" >
+				<div>lorem*5x cfdsffsdsdffs dsdfsdfsd fsdff dsdffdssd fsd fsdfd sdfgfdfd fnjkgfhj kdgh gjk hdjkghj hgdjkhghj khgdkhj khjkh jkgh jkgkj dg dsff</div><div>lorem*5 xcfds ffsdsdffsds dfsdf sdfsdf fdsdffdssdfsdfsd fdfsdfg fdfdfnj kgfhj kdghgjkhdjkg jkhgdjkhghjkhg khjk hjk h jkghjk gkjd gdsff</div><div>lorem*5xcf dsffsds dffsds dfsdfsdfsdff  dsdffdssdf sdfsd fdfsd fgf dfdfn kgf hjkdghg jkh djkghjkhgd jkhghjk hgdk hjk hjkhjkg hjkgkjdgdsff</div><div>lorem*5xcfds  fsdsdf fsds  fsdf sdfsdffdsdffd  djkhghjkh dk hjkhj hj kg hjkgk jdg dsff</div><div>lore m*5x cfdsf fs dsdffs dsd fsdfsdfs dffdsdffdssd fsdfsd fdfs dfg fdfd fnjkgfh jk dghgj kh djkgh jkhgd jkhghjk hgdkh jkhjkh jkghjkg jdgd sff</div>
+			</section> -->
+			
+			<footer data-role="footer" data-theme="a" data-position="fixed">
+				
+				<nav data-role="navbar">
+					<ul>
+						<li><a data-transition="slidedown" href="#inicio" data-icon="home">Inicio</a></li>
+					<li><a data-transition="slideup" href="#servicios" data-icon="star">Imagenes</a></li>
+					<li><a data-role="content" href="#vision" data-icon="grid" action="">Videos</a></li>
+					<li><a data-transition="pop" href="#mision" data-icon="plus">Perfil</a></li>
+					</ul>
+				</nav>
+			</footer>
+		</section>
+	<!-- End Page to Misión -->
+
+
+	<!-- Page to Visión -->
+		<section id="vision" data-role="page" data-theme="a">
+	
+			<header data-role="header">
+				<h1>Vídeos</h1>
+			</header>
+
+			<div class="row">
+			  <div class="col-xs-12 col-md-6">
+			  	<h4 style="text-align:center;">Water</h4>
+			    <a href="#" class="thumbnail">
+			      <video width="100%;" controls >
+			      	<source src="video/water.mov" >
+			      </video>
+			    </a>
+			  </div>
+			  <div class="col-xs-12 col-md-6">
+			  	<h4 style="text-align:center;">Animación</h4>
+
+			    <a href="#" class="thumbnail" >
+			      <video width="100%;" controls >
+			      	<source src="video/animacion3d.mov" >
+			      </video>
+			    </a>
+			  </div>
+			</div>
+		
+	
+		<!-- 	<section data-role="content" data-theme="b">
+				
+				<article data-role="collapsible">
+					<h3>Visión</h3>
+					<p>
+						lorem*5xcfdsf fsdsdffsdsdf sdfsdfsd fdsdffds sdfsdfsdfdfsdfgfdfdfnjk gfhjkdghgjkhdjkghjk hgdjkhgh jkhgdkhjkhjkhjkghjkg dfsdfsdfdfsdfg fdfdfnjkg fhjkdgh gjkhdjk ghjkhgdjkhghjkhgdk hjkhjkh jkgh jk gkjdgdsfflorem* 5xc fdsf  fsdsdffsdsdfsdfsdfsdffds dffdssdfsdf sdfdf sdfgfdfdfnjk gfhjkdgh gjkhdjkg hjkh gdjkhghjkhgdkh jkhjkhjkghjkgkjd gdsfflorem*5x cfdsffsdsd ffsdsdfsdfsdfsdffd sdffdssdf sdfsdfdfsdfgf dfdfnjkgfhjkd ghgj hdjkghjk hgdjkhghjkhgdk hjkhjkhjkghjkgk jdgdsflorem*5xcfdsf sdsdffsdsd fsdfsdfs dffdsdffdss df sdfsdfdfsdfgfd fdfnjk gfhjkdghgjkhdjkg hjkhgdjkhghjkhgdkh jkhjkhjkghj kgkjd gdsff
+					</p>
+				</article>
+			</section> -->
+			
+			<footer data-role="footer" data-theme="a" data-position="fixed">
+				
+				<nav data-role="navbar">
+					<ul>
+						<li><a data-transition="slidedown" href="#inicio" data-icon="home">Inicio</a></li>
+					<li><a data-transition="slideup" href="#servicios" data-icon="star">Imagenes</a></li>
+					<li><a data-role="content" href="#vision" data-icon="grid" action="">Videos</a></li>
+					<li><a data-transition="pop" href="#mision" data-icon="plus">Perfil</a></li>
+					</ul>
+			</footer>
+		</section>
+	<!-- End Page to Visión -->
+	<!-- Page Servicios -->
+		<section id="servicios" data-role="page" data-theme="a">
+			<header data-role="header">
+				<h1>Imagenes</h1>
+			</header>
+		
+	
+			<section data-role="content" data-theme="a">
+		
+				<div class="row">
+				  <div class="col-xs-12 col-md-6">
+
+				    <a href="#" class="thumbnail">
+				      <img src="image/espiral.png" alt="...">
+				    </a>
+				  </div>
+				 
+				  
+				</div>
+				<!-- <ul data-role="listview">
+					<li><a href="">Servisios1</a></li>
+					<li><a href="">Servisios2</a></li>
+					<li><a href="">Servisios3</a></li>
+					<li><a href="">Servisios4</a></li>
+					<li><a href="">Servisios5</a></li>
+				</ul> -->
+			</section>
+			
+			<footer data-role="footer" data-theme="a" data-position="fixed">
+				
+				<nav data-role="navbar">
+					<ul>
+						<li><a data-transition="slidedown" href="#inicio" data-icon="home">Inicio</a></li>
+					<li><a data-transition="slideup" href="#servicios" data-icon="star">Imagenes</a></li>
+					<li><a data-role="content" href="#vision" data-icon="grid" action="">Videos</a></li>
+					<li><a data-transition="pop" href="#mision" data-icon="plus">Perfil</a></li>
+					</ul>
+			</footer>
+		</section>
+	<!-- End Page Servicios -->
+
+</body>
+</html>
+
